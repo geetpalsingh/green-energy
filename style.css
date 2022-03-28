@@ -1,0 +1,140 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+
+h1, h2{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body{
+    max-width: 60rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+header{
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.masthead{
+    background-image:url(../img/wind.png);
+    background-size: cover;
+    padding: 1.25rem;
+    background-color: #efefef;
+    margin-bottom: 1rem;
+}
+.controls  {
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-right: 4rem;
+}
+
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.energy-heading{
+    margin-bottom: 2rem;
+}
+
+
+button{
+    padding: 0.25rem 0;
+    background-color: white;
+    border: none;
+    border-bottom: 4px solid lightgrey;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.dynamic-content {
+    margin-bottom: 1rem;
+}
+.dynamic-content h2{
+    margin-bottom: 0.5rem;
+}
+
+.sol-img{
+    margin-bottom: 1rem;
+}
+.theimg{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-n-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid lightgrey;
+}
+footer{
+    margin: 2rem 0;
+}
+.socials i{
+    font-size: 2rem;
+    color: #6495EC;
+    margin-right: 2rem;
+}
+
+
+#active {
+    border-bottom: 4px solid blue;
+}
+
+
+@media screen and (min-width: 960px){
+
+    .img-n-text{
+    flex-direction: row;
+    }
+
+    .info{
+        max-width: 60%;
+    }
+
+    .sol-img{
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+        
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    nav a{
+        border: 1px solid lightgrey;
+        padding: 0.5rem 4rem;
+    }
+}
